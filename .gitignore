@@ -1,0 +1,22 @@
+# Large trace archive (distributed separately)
+ther/precollected/ther_traces_qwen3_30b_a3b.tar.xz
+
+# Extracted traces (created by ./ther/scripts/setup_traces.sh; regenerable)
+ther/traces/data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary/editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ASTRA-MoE Energy Evaluation: routing-trace archive and extracted trace (downloaded by
+# ./astrasim_energy/scripts/setup_realtrace.sh; regenerable)
+astrasim_energy/precollected/realtrace_qwen30_a3b_224req.tar.xz
+astrasim_energy/traces/
+astrasim_energy/outputs/realtrace_qwen30/routed_log/

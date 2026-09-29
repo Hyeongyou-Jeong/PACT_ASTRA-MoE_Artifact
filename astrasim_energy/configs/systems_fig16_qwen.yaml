@@ -1,0 +1,23 @@
+# Synthetic regression settings (Figure-16 batch sizes) for Qwen3-30B-A3B and Qwen3-235B-A22B,
+# used only by scripts/run_fig16_regression.sh. Batch sizes are fixed inputs (not derived by
+# batch_sizing.py). Llama4-Scout uses the shipped systems.yaml (auto batch sizing) instead.
+# The real-trace path uses systems_realtrace_qwen30.yaml.
+systems:
+  - name: vllm
+    batch_size: 14
+    gpu_expert_budget: 128
+    num_gpus: 4
+    residency_policy: all
+
+  - name: deepspeed_nvme
+    batch_size: 32
+    gpu_expert_budget: 0
+    num_gpus: 4
+    residency_policy: none
+
+  - name: astra_moe
+    batch_size: 32
+    gpu_expert_budget: 64
+    num_gpus: 4
+    residency_policy: ther
+    ther_window_size: 16

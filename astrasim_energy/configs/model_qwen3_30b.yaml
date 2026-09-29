@@ -1,0 +1,20 @@
+name: qwen3_30b_a3b
+num_layers: 48
+num_experts: 128
+top_k: 8
+hidden_size: 2048
+ffn_dim: 768
+bytes_per_param: 2
+parameter_size_bytes: 60000000000
+sequence_length: 16000
+kv_cache_hidden_size: 512
+kv_cache_num_layers: 48
+resident_expert_num_layers: 48
+
+# Derived from hidden_size * ffn_dim * 3 * bytes_per_param.
+expert_size_bytes: 9437184
+
+# Simple per-token approximations for the energy simulator.
+dense_flops_per_token: 536870912
+expert_flops_per_token: 9437184
+activation_bytes_per_token: 4096

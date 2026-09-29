@@ -1,0 +1,20 @@
+{
+  "configs": [],
+  "workloads": [
+    "mixed",
+    "arxiv",
+    "pubmed_central",
+    "github",
+    "stackexchange",
+    "wikipedia",
+    "freelaw",
+    "hackernews",
+    "pile_cc"
+  ],
+  "trace_root": "ther/traces/data",
+  "wall_seconds": 719.5552124977112,
+  "wf_csv": "ther/results/supplemental/ther_wf_sensitivity.csv",
+  "gap_csv": "ther/results/supplemental/ther_wf_gaps.csv",
+  "b_csv": "ther/results/supplemental/ther_b_sensitivity.csv",
+  "note": "Supplemental only; primary artifact remains B=12,W=8,F=4"
+}

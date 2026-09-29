@@ -1,0 +1,22 @@
+{
+  "path": "ther/workloads/workload_pile_cc.json",
+  "num_requests": 16,
+  "sources": [
+    "pile_cc"
+  ],
+  "input_length": 4096,
+  "output_length": 1024,
+  "batch_size": 16,
+  "dataset_id": "monology/pile-uncopyrighted",
+  "dataset_revision": "3be90335b66f24456a5d6659d9c8d208c0357119",
+  "seed": 1049,
+  "crop_seed": 1049,
+  "source_scan_stats": {
+    "pile_cc": {
+      "scanned": 2598,
+      "eligible": 96,
+      "pool": 48,
+      "selected": 16
+    }
+  }
+}

@@ -1,0 +1,20 @@
+name: llama4_scout
+num_layers: 48
+num_experts: 16
+top_k: 1
+hidden_size: 5120
+ffn_dim: 8192
+bytes_per_param: 2
+parameter_size_bytes: 218000000000
+sequence_length: 64000
+kv_cache_hidden_size: 640
+kv_cache_num_layers: 48
+resident_expert_num_layers: 48
+
+# Derived from hidden_size * ffn_dim * 3 * bytes_per_param.
+expert_size_bytes: 251658240
+
+# Simple per-token approximations for the energy simulator.
+dense_flops_per_token: 3355443200
+expert_flops_per_token: 251658240
+activation_bytes_per_token: 10240

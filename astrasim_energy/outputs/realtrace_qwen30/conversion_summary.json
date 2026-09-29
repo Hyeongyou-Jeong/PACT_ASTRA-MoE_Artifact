@@ -1,0 +1,12 @@
+{
+  "requests": 224,
+  "decode_steps_per_request": [
+    1023
+  ],
+  "moe_layers": 48,
+  "top_k": 8,
+  "num_experts": 128,
+  "decode_tokens": 229152,
+  "routed_entries": 87994368,
+  "written_routed_entries": 87994368
+}

@@ -1,0 +1,7 @@
+{
+  "archive": "ther_traces_qwen3_30b_a3b.tar.xz",
+  "bytes": 1202919576,
+  "sha256": "64612e7d5256436174d23b753987d387574b7d7c179d6dc579c8fc7439409f7d",
+  "workloads": 9,
+  "layout": "traces/<workload>/{raw_trace.h5,metadata.json,requests.json,...}"
+}

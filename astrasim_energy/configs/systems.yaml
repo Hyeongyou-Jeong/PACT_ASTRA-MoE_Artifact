@@ -1,0 +1,19 @@
+systems:
+  - name: vllm
+    batch_size: auto
+    gpu_expert_budget: 128
+    num_gpus: 4
+    residency_policy: all
+
+  - name: deepspeed_nvme
+    batch_size: auto
+    gpu_expert_budget: 0
+    num_gpus: 4
+    residency_policy: none
+
+  - name: astra_moe
+    batch_size: auto
+    gpu_expert_budget: 4
+    num_gpus: 4
+    residency_policy: ther
+    ther_window_size: 16

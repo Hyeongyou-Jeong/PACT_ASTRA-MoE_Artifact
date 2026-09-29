@@ -1,0 +1,23 @@
+{
+  "fixed_eight_sources": [
+    "arxiv",
+    "pubmed_central",
+    "github",
+    "stackexchange",
+    "wikipedia",
+    "freelaw",
+    "hackernews",
+    "pile_cc"
+  ],
+  "pile_set_names": {
+    "arxiv": "ArXiv",
+    "pubmed_central": "PubMed Central",
+    "github": "Github",
+    "stackexchange": "StackExchange",
+    "wikipedia": "Wikipedia (en)",
+    "freelaw": "FreeLaw",
+    "hackernews": "HackerNews",
+    "pile_cc": "Pile-CC"
+  },
+  "note": "mixed matches rebuttal 8\u00d72 structure. Per-domain 1\u00d716 batches are artifact extensions for domain comparison."
+}

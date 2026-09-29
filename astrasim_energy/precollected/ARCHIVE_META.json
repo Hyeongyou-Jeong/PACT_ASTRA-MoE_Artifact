@@ -1,0 +1,10 @@
+{
+  "archive": "realtrace_qwen30_a3b_224req.tar.xz",
+  "bytes": 1872884316,
+  "uncompressed_bytes": 2323767913,
+  "sha256": "0f2b97f2c7f26ddc389b6427754230b5d7972ba965742a919c6ad4ca5708410a",
+  "model": "Qwen/Qwen3-30B-A3B",
+  "requests": 224,
+  "decode_steps_per_request": 1023,
+  "layout": "realtrace_qwen30_a3b_224req/{part_a,part_b}/{raw_trace.h5,requests.json,metadata.json,...}, manifest/, PROVENANCE.md, TRACE_MANIFEST.csv"
+}

@@ -1,0 +1,71 @@
+{
+  "path": "ther/workloads/workload_mixed.json",
+  "num_requests": 16,
+  "sources": [
+    "arxiv",
+    "pubmed_central",
+    "github",
+    "stackexchange",
+    "wikipedia",
+    "freelaw",
+    "hackernews",
+    "pile_cc"
+  ],
+  "input_length": 4096,
+  "output_length": 1024,
+  "batch_size": 16,
+  "dataset_id": "monology/pile-uncopyrighted",
+  "dataset_revision": "3be90335b66f24456a5d6659d9c8d208c0357119",
+  "seed": 42,
+  "crop_seed": 42,
+  "source_scan_stats": {
+    "arxiv": {
+      "scanned": 13,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "pubmed_central": {
+      "scanned": 16,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "github": {
+      "scanned": 200,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "stackexchange": {
+      "scanned": 1485,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "wikipedia": {
+      "scanned": 268,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "freelaw": {
+      "scanned": 25,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "hackernews": {
+      "scanned": 239,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    },
+    "pile_cc": {
+      "scanned": 350,
+      "eligible": 12,
+      "pool": 6,
+      "selected": 2
+    }
+  }
+}

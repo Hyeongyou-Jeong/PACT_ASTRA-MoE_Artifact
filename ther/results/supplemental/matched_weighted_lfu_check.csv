@@ -1,0 +1,10 @@
+workload,n_events,n_resident_set_diffs,max_abs_difference,identical_to_ther
+arxiv,49152,0,0,True
+freelaw,49152,0,0,True
+github,49152,0,0,True
+hackernews,49152,0,0,True
+mixed,49152,0,0,True
+pile_cc,49152,0,0,True
+pubmed_central,49152,0,0,True
+stackexchange,49152,0,0,True
+wikipedia,49152,0,0,True

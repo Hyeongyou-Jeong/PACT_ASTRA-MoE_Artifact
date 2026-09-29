@@ -1,0 +1,19 @@
+{
+  "workload": "github",
+  "trace_dir": "ther/traces/data/github",
+  "n_records": 49152,
+  "n_compared": 49008,
+  "policies": [
+    "Static",
+    "LRU",
+    "LFU",
+    "WeightedLFU",
+    "THER",
+    "Oracle"
+  ],
+  "gpu_budget": 12,
+  "window_size": 8,
+  "swap_frequency": 4,
+  "exclude_warmup_until_first_refresh": true,
+  "claim_boundary": "Qwen3-30B-A3B rebuttal-style routed-token coverage; not an exact reproduction of paper Fig. 8(b) Qwen3-235B operating point."
+}

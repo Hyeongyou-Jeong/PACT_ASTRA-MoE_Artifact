@@ -1,0 +1,32 @@
+gpu:
+  name: A100
+  num_devices: 4
+  memory_capacity_bytes: 80000000000
+  flops_per_s: 312000000000000.0
+  communication_bandwidth_Bps: 600000000000.0
+  communication_energy_pj_per_bit: 5.0
+  static_power_w: 55.0
+  active_power_w: 300.0
+  idle_power_w: 70.0
+
+pcie:
+  bandwidth_Bps: 32000000000.0
+  energy_pj_per_bit: 5.0
+
+epu:
+  flops_per_s: 10000000000000.0
+  energy_pj_per_flop: 1.45
+
+flash:
+  bandwidth_Bps: 614400000000.0
+  active_power_w: 8.0
+
+dram:
+  energy_pj_per_bit: 4.0 
+
+spm:
+  energy_pj_per_bit: 0.2
+
+controller:
+  active_power_w: 2.0
+  latency_s: 0.000010485

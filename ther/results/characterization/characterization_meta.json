@@ -1,0 +1,7 @@
+{
+  "csv": "ther/results/characterization/domain_characterization.csv",
+  "trace_root": "ther/traces/data",
+  "gpu_budget": 12,
+  "window_size": 8,
+  "swap_frequency": 4
+}

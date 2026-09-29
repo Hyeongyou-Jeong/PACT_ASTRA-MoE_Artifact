@@ -1,0 +1,22 @@
+{
+  "path": "ther/workloads/workload_pubmed_central.json",
+  "num_requests": 16,
+  "sources": [
+    "pubmed_central"
+  ],
+  "input_length": 4096,
+  "output_length": 1024,
+  "batch_size": 16,
+  "dataset_id": "monology/pile-uncopyrighted",
+  "dataset_revision": "3be90335b66f24456a5d6659d9c8d208c0357119",
+  "seed": 1043,
+  "crop_seed": 1043,
+  "source_scan_stats": {
+    "pubmed_central": {
+      "scanned": 116,
+      "eligible": 96,
+      "pool": 48,
+      "selected": 16
+    }
+  }
+}

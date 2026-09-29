@@ -1,0 +1,4 @@
+# Requires Python >= 3.10. CPU-only; no GPU/CUDA packages needed.
+PyYAML>=5.3    # energy simulator (config loading)
+numpy>=1.21    # real-trace converter (scripts/convert_routing_trace.py)
+h5py>=3.0      # real-trace converter (reads HDF5 raw_trace.h5)
